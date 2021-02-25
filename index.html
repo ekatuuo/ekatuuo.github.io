@@ -1,1 +1,107 @@
-Hello World
+<!DOCTYPE html>
+
+<!-- Basic CSS Example -->
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic CSS Example</title>
+
+  <!-- Introducing the Style Tag! -->
+  <!-- ========================== -->
+
+  <!-- Now you can customize the look of your sites. Each rule in the style tag changes the appearance of elements matching the selector -->
+<style>
+  /*
+    NOTE: Commenting is a bit different in CSS. 
+    They start with forward-slash + asterisk 
+    and end with back-slash + asterisk.
+    */
+
+  /* h1 heading tag */
+  h1 {
+    /* Put a 15-pixel margin at the bottom of the heading. */
+    margin-bottom: 15px;
+    /* Change the size of your font to 60 pixels high. */
+    font-size: 60px;
+    /* This will color the heading font white. */
+    color: white;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: center;
+    /* Underline the text. */
+    text-decoration: underline;
+    /* The background of the heading element will now be black. */
+    background-color: black;
+  }
+
+  /* h2 heading tags */
+  h2 {
+    /* Put a 15-pixel margin at the top of all h2 headings. */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  /* h3 heading tags */
+  h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* All img tags */
+  img {
+    /* 
+      Center a block element in the middle of its enclosing tag.
+      When you use the "auto" rule on both left and right margins, 
+      your browser will do the math necessary to center a block element.
+      */
+    margin-left: auto;
+    margin-right: auto;
+    /* Block display (more on this later) */
+    display: block;
+  }
+
+  /* All p tags */
+  p {
+    text-align: center;
+    font-size: 20px;
+    /* Bold the text. */
+    font-weight: bold;
+  }
+
+  /* All unordered list tags */
+  ul {
+    text-align: center;
+    font-size: 35px;
+    /* Give an element a solid border. */
+    border-style: solid;
+    /* Render the border 5 pixels thick. */
+    border-width: 5px;
+    /* Include bullets in the content flow. */
+    /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+    list-style-position: inside;
+  }
+</style>
+</head>
+
+<body>
+
+  <h1>Edyson Katuuo Main Page</h1>
+  <h2>This is who i am</h2>
+  <h3>My Biography</h3>
+
+  <p>I was born in Namnibia ( located in South-west Africa). I came to the US in 1999. I currently reside in Lodi NJ. </p>
+  <img src="data:image/jpeg;base64,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" alt="Awesome" width="25%">
+
+  <h3>I am an HUGE Arsenal fan</h3>
+  <ul>
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.linkedin.com/in/edyson-r-katuuo-msm-ba085941/">Linkedin</a></li>
+    <li><a href="https://twitter.com/ekatuuo">Twitter</a></li>
+  </ul>
+
+</body>
+
+</html>
